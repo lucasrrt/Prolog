@@ -98,7 +98,7 @@ uniao([],X,X).
 uniao([A|As],B,U):-
 	uniao(As,[A|B],U).
 
-intercecao_conjunto(A,B,I):-
+intersecao_conjunto(A,B,I):-
 	uniao(A,B,U),
 	eh_conjunto(U,USet),
 	diff(USet,A,Ua),
