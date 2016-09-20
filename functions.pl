@@ -74,7 +74,7 @@ eh_conjunto([L|Ls],C):-
 	eh_conjunto(L1,C1).
 
 
-
+%Divide list in two, the greater or equal to X and the other.
 divide(_,[],[],[]).
 divide(X,[L|Ls],L1,L2):-
 	(eh_conjunto([L|Ls],[L|Ls]),
