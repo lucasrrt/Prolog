@@ -51,7 +51,7 @@ diff(As,[B|Bs],C):-
 	rem2(B,As,A2),!,
 	diff(A2,Bs,C).
 
- 
+%Same as findall
 customfindall( X, Goal, Xlist)  :-
   call( Goal),                         % Find a solution
   assertz( queue(X) ),                 % Assert it
