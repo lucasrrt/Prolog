@@ -1,3 +1,4 @@
+%Mergesort
 split([], _, [], []).
 split(XS, K, [], XS):-
 	K < 1.
