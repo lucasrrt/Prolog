@@ -114,9 +114,9 @@ intercecao_conjunto(A,B,I):-
 	write("UUb:"),write(UUb),nl.
 
 
-intercecao_lista([],_,[]).
-intercecao_lista(_,[],[]).
-intercecao_lista([A|As],B,I):-
+intersecao_lista([],_,[]).
+intersecao_lista(_,[],[]).
+intersecao_lista([A|As],B,I):-
 	(membro(A,B),
 		remove_primeiro(A,B,B1),
 		remove_primeiro(A,I,I1),
