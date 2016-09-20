@@ -1,3 +1,4 @@
+%N é o número de discos na torre
 hanoi(N):-move(N,1,2,3).
 
 move(0,_,_,_):-!.
